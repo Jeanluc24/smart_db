@@ -1,0 +1,48 @@
+{% extends 'partials/base.html' %}
+{% block title %} Staff Page {% endblock %}
+
+{% block content %} 
+
+{% include 'partials/topnav.html' %}
+ <!--Table-->
+ <div class="container">
+    <div class="row my-4">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+            <table class="table bg-white">
+                <thead class="bg-brown">
+                    <tr class="text-white">
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><a class="btn btn-sm" href="" style="background-color: #772a06; color: white; border-color: #5C4033;">View</a></th>
+                        <td>Manzi</td>
+                        <td>Armand</td>
+                        <td>@manzi</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a class="btn btn-sm" href="" style="background-color: #772a06; color: white; border-color: #5C4033;">View</a></th>
+                        <td>Irakoze</td>
+                        <td>Prime Prince</td>
+                        <td>@prime</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a class="btn btn-sm" href="" style="background-color: #772a06; color: white; border-color: #5C4033;">View</a></th>
+                        <td>Mugabe</td>
+                        <td>Robertson</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </div>
+    </div>
+
+</div>
+<!--End of the table-->
+{% endblock %}
