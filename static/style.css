@@ -1,0 +1,25 @@
+body{
+    background: rgb(210, 207, 207);
+}
+
+.my-card:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.bg-brown {
+    background-color: #8B4513; /* A brown color */
+}
+
+.text-brown {
+    color: #8B4513;
+}
+.btn-brown {
+    background-color: #5C4033; /* Dark brown */
+    color: white; /* White text */
+    border-color: #5C4033;
+}
+
+.btn-brown:hover {
+    background-color: #4E3629; /* Slightly darker brown on hover */
+    border-color: #4E3629;
+}
